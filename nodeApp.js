@@ -10,5 +10,5 @@ const server = http.createServer((req, res) => {
     });
 
 server.listen(3030, "localhost", () => {
-  console.log(`Server running at http://${node_hostname}:${node_port}/`);
+  console.log(`Server running at http://localhost:3030/`);
 });
