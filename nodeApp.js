@@ -9,6 +9,6 @@ const server = http.createServer((req, res) => {
     res.end(JSON.stringify({connection : successfull}));
     });
 
-server.listen(3030, "localhost", () => {
+server.listen(3030, "localHost", () => {
   console.log(`Server running at http://localhost:3030/`);
 });
